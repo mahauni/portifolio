@@ -3,11 +3,16 @@ body {
 }
 
 .main {
-    background-color: grey;
+    background-color: #fff;
     overflow: hidden;
 }
 
-header img {
+header {
+    overflow: hidden;
+    background-color: grey;
+}
+
+header .header img {
     float: right;
     background-color: azure;
     margin: 20px;
@@ -15,7 +20,7 @@ header img {
     width: 150px;
 }
 
-.title h1 {
+header .title h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3em;
     color: aliceblue;
